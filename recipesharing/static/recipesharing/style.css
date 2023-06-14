@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#header {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    height: 80px;
+}
+#header h1 {
+    text-transform: uppercase;
+    color: darkgreen;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-top: revert;
+}
+.badge-primary {
+    background-color: darkgreen !important;
+}
+.badge-primary:hover{
+    background-color: #004900 !important;
+}
+#home-img {
+    width: 100%;
+}
+h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+p {
+    color: black;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+a:hover {
+    text-decoration: none;
+}
+#footer {
+    text-align: center;
+    background-color: black;
+    height: 60px;
+}
+.badge-secondary {
+    border-radius: 0;
+    background-color: lightgrey !important;
+}
+.badge-secondary:hover{
+    background-color: darkgray !important;
+}
+
+
+#photo1{
+    content: url("images/dashboard.jpg");
+}
+#photo2{
+    content: url("images/create-recipe.jpg");
+}
+#photo3{
+    content: url("images/home.jpg");
+}
+#photo4{
+    content: url("images/appetizers.jpg");
+}
+#photo5{
+    content: url("images/desserts.jpg");
+}
+#photo6{
+    content: url("images/firsts.jpg");
+}
+#photo7{
+    content: url("images/seconds.jpg");
+}
+#photo8{
+    content: url("images/sides.jpg");
+}
+
