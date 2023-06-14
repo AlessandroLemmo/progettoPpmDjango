@@ -35,3 +35,7 @@ class Favorite(models.Model):
 
     class Meta:
         db_table = "favorites"
+
+
+#class MyModel(models.Model):
+    #image = models.ImageField(upload_to='images/')
